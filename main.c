@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {
-        fprintf(stderr, "Enter exactly 3 arguments as \"b exponent d\" i.exponent. \"2 4 3\"");
+        fprintf(stderr, "Enter exactly 3 arguments as \"b e d\" i.e. \"2 4 3\"");
         return 2;
     }
     // User defined variables
