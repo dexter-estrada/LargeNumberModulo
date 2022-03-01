@@ -4,3 +4,5 @@ project(RSACipherC C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(RSACipherC main.c)
+
+target_link_libraries(RSACipherC m)
