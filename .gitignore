@@ -1,1 +1,6 @@
 /cmake-build-debug/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/RSACipherC.iml
+/.idea/vcs.xml
