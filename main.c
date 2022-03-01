@@ -16,8 +16,8 @@ int main(int argc, char *argv[]) {
     }
     // User defined variables
     double base = atoi(argv[1]);
-    int divisor = atoi(argv[2]);
-    double exponent = atoi(argv[3]);
+    double exponent = atoi(argv[2]);
+    int divisor = atoi(argv[3]);
 
     unsigned long dividend = pow(base, exponent);
     int remainder = dividend % divisor;
